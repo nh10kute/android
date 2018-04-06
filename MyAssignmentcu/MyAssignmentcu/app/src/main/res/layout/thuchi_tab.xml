@@ -1,0 +1,258 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/iconsotien"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/icontien"
+                />
+            <TextView
+
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tiền mặt"/>
+            <TextView
+                android:id="@+id/txttienmat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:layout_marginLeft="73dp"
+
+                android:textSize="20dp"
+                android:textColor="#111211"
+
+                android:text="0đ"
+                android:layout_weight="0.09" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/icontien"
+                />
+            <TextView
+
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tiết kiệm"/>
+            <TextView
+                android:id="@+id/txttietkiem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="70dp"
+                android:textSize="20dp"
+                android:textColor="#111211"
+
+                android:text="0đ"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/icontien"
+                />
+            <TextView
+
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tín dụng"/>
+            <TextView
+                android:id="@+id/txttindung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_marginLeft="78dp"
+                android:textSize="20dp"
+                android:textColor="#111211"
+
+                android:text="0đ"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/iconsodu"
+                />
+            <TextView
+                android:id="@+id/loaitien"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số dư"/>
+            <TextView
+                android:id="@+id/txtsodu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_marginLeft="100dp"
+                android:textSize="20dp"
+                android:textColor="#EE0000"
+
+                android:text="0đ"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:background="@drawable/button_css"
+                android:id="@+id/btnthemgiaodich"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textColor="#FF00AA00"
+
+                android:text="Thêm Giao Dịch"
+               />
+                <Button
+                    android:background="@drawable/button_css"
+                    android:id="@+id/btnhomnay"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:text="Hôm nay"
+                    android:textColor="#FF00AA00"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:background="@drawable/button_css"
+                    android:id="@+id/btntuannay"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:text="Tuần này"
+                    android:textColor="#FF00AA00"
+                    android:layout_weight="1"/>
+                <Button
+                    android:background="@drawable/button_css"
+                    android:id="@+id/btnthangnay"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:text="tháng này"
+                    android:textColor="#FF00AA00"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:text="Thêm Giao Dịch"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:background="@drawable/button_css"
+                    android:id="@+id/btnnamnay"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:text="Năm này"
+                    android:textColor="#FF00AA00"
+                    android:layout_weight="1"/>
+                <Button
+                    android:background="@drawable/button_css"
+                    android:id="@+id/btnxembieudo"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                    android:text="Xem biểu đồ"
+                    android:textColor="#FF00AA00"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+    </LinearLayout>
